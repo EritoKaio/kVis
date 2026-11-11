@@ -1,0 +1,28 @@
+{
+  "name": "kvis",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "vite",
+    "bridge": "node server/krpc-bridge.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "overrides": {
+    "protobufjs": "^7.6.3",
+    "ws": "$ws"
+  },
+  "dependencies": {
+    "krpc.js": "git+https://github.com/lucaelin/krpc.js.git#7f97818c3375f6f837c44b2812f9ac77908dcef4",
+    "three": "^0.186.1",
+    "ws": "^8.22.0"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1024" viewBox="0 0 2048 1024">
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020307"/>
+      <stop offset=".48" stop-color="#05080e"/>
+      <stop offset="1" stop-color="#020307"/>
+    </linearGradient>
+    <radialGradient id="nebula" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#15243a" stop-opacity=".28"/>
+      <stop offset=".55" stop-color="#0b1321" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#03050a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2048" height="1024" fill="url(#space)"/>
+  <ellipse cx="540" cy="370" rx="700" ry="260" fill="url(#nebula)" transform="rotate(-18 540 370)"/>
+  <ellipse cx="1570" cy="690" rx="760" ry="240" fill="url(#nebula)" transform="rotate(22 1570 690)"/>
+</svg>
